@@ -1,10 +1,11 @@
 :root {
     /*colors*/
-    --cor-vermelho: #960606;
-
-
+    --primary: #c17c5a;
+    --secondary: #95989a;
+    --text-color:#fff;
+    --text-secondary:#000;
+    --text-tertiary: #5d5d55;
 
     /*fonts*/
-    
     --regular:'Montserrat'
 }

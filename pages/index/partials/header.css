@@ -1,0 +1,105 @@
+/*Event form*/
+
+#event-description {
+    background: linear-gradient(rgba(0, 0, 0, 0.856), rgba(0,0,0, 0.856) ), url(../../../files/hrz-5.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--text-color);
+}
+
+#disclaimer h2, 
+#disclaimer .event-date {
+    color: var(--primary);
+}
+
+#disclaimer h2 {
+    font-size: 2.8em;
+    max-width: 360px;
+}
+
+#disclaimer h3 {
+    color: #ffffff;
+    font-size: 0.93em;
+    font-weight: 300;
+    line-height: 0px;
+}
+
+#disclaimer span {
+    color: var(--primary);
+}
+
+#disclaimer .about-event {
+    font-size: 2em;
+    text-transform: uppercase;
+    max-width: 400px;
+    font-weight: bold;
+    margin-bottom: 1em;
+    margin-top: 1.5em;
+}
+
+#disclaimer  p {
+    font-size: 1.2em;
+    margin-bottom: 0.3em;
+    max-width: 400px;
+}
+
+#disclaimer .event-date {
+    font-size: 1.2em;
+    font-weight: bolder;
+    line-height: 1px;
+}
+
+#subscription-form {
+    background-color: var(--secondary);
+    padding: 2em;
+    max-width: 22%;
+    border-radius: 7px;
+}
+
+#subscription-form p {
+    font-size: 1.5em;
+    color: var(--text-secondary);
+    margin-bottom: 1em;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.8em;
+}
+
+.form-group label {
+    color: var(--text-tertiary);
+    margin-bottom: 0.3em;
+    font-weight: bold;
+}
+
+.form-group input, .form-group select {
+    padding: 6px 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.btn {
+    background-color: var(--primary);
+    color: var(--text-color);
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background-color: var(--text-color);
+    color: var(--primary);
+    font-weight: bolder;
+}
