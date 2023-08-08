@@ -10,7 +10,7 @@
 .benefits {
     display: flex;
     justify-content: space-around;
-    padding: 4em;
+    padding: 1.3em;
     width: 80%;
     margin: auto;
 }
@@ -18,6 +18,8 @@
 .benefit {
     text-align: center;
     display: flex;
+    font-weight: 350;
+    text-transform: initial;
     flex-direction: column;
     align-items: center;
     max-width: 20%;

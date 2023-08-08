@@ -1,0 +1,16 @@
+#details{
+    width: 80%;
+    margin: auto;
+}
+
+.details {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 5%;
+    margin-bottom: 4em;
+}
+
+.details img {
+    width: 50%;
+}

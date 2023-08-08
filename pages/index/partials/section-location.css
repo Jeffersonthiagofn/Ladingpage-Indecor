@@ -1,0 +1,40 @@
+#location {
+    height: 400px;
+    background: linear-gradient(rgba(0, 0, 0, 0.856), rgba(0,0,0, 0.856) ), url(../../../files/hrz-1.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--text-color);
+    margin-bottom: 3em;
+}
+
+#address, #about-location {
+    max-width: 30%;
+}
+
+#address {
+    display: flex;
+}
+
+#address i {
+    color: var(--primary);
+    font-size: 4.3em;
+}
+
+#address-details {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+#about-location h3 {
+    color: var(--primary);
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+}
+
+#about-location p {
+    line-height: 1.5em;
+}
