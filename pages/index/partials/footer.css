@@ -1,0 +1,31 @@
+#footer{
+    text-align: center;
+    color: var(--secondary);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#footer h3 {
+    font-size: 1.6em;
+    line-height: 18px;
+}
+
+#footer h4 {
+    font-weight: 200;
+    margin-bottom: 0.4em;
+    font-size: 0.9em;
+}
+
+#footer p.slogan{
+    margin-bottom: 1em;
+    font-size: 1.2em;
+}
+
+#footer span {
+    font-weight: bold;
+}
+
+
+

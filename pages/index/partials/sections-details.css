@@ -3,7 +3,7 @@
     margin: auto;
 }
 
-.details {
+.detail {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -11,6 +11,36 @@
     margin-bottom: 4em;
 }
 
-.details img {
+.detail img {
     width: 50%;
+    border-radius: 5px;
+}
+
+.detail h3 {
+    margin-bottom: 1em;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+#detail-1 h3 {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.details-description {
+    width: 100%;
+    padding-left: 2em;
+}
+
+.details-description ul {
+    list-style-position: inside;
+}
+
+.details-description ul li {
+    margin-bottom: 0.4em;
+    font-size: 1.5em;
+}
+
+.details-description ul li:last-child {
+    font-weight: bold;
 }
