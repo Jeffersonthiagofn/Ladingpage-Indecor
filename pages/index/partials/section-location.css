@@ -38,3 +38,37 @@
 #about-location p {
     line-height: 1.5em;
 }
+
+@media (max-width: 450px) {
+    #location {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        padding: 2em 0;
+    }
+
+    #address {
+        order: 2;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    #address i {
+        margin: .3em 0 0 0;
+    }
+
+    #about-location {
+        order: 1;
+        font-size: 1.2em;
+        max-width: 85%;
+        padding: 0 10px
+    }
+    
+    #address-details {
+        max-width: 300px;
+    }
+
+
+
+
+}

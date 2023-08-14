@@ -44,3 +44,43 @@
 .details-description ul li:last-child {
     font-weight: bold;
 }
+
+@media (max-width: 450px) { 
+    .detail {
+        flex-direction: column;
+        margin-bottom: .5em;
+        gap: 0;
+    }
+
+    .detail img{
+        width: 100%;
+        margin: 1.5em 0;
+    }
+
+    #detail-1 h3 {
+        max-width: 360px;
+        font-size: 2em;
+    }
+
+    .details-description ul li {
+        margin-bottom: 0.4em;
+        font-size: 1.3em;
+    }
+
+    #detail-1 img {
+        display: none;
+    }
+
+    .details-description {
+        padding: 0;
+    }
+
+    #detail-3 img {
+        order: 2;
+    }
+
+    #detail-3 .details-description {
+        order: 1;
+    }
+    
+}

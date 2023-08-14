@@ -22,3 +22,14 @@
     font-weight: 800;
     font-size: 1.2em;
 }
+
+@media (max-width: 450px) {
+    #cta {
+        text-align: center;
+    }
+
+    #cta .btn {
+        width: 80%; 
+    }
+
+}
